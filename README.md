@@ -10,6 +10,12 @@ Antes de tudo, acesse a pasta correta do [server](https://github.com/rafael-jord
 cd server
 ```
 
+Instale as dependências
+
+```bash
+npm install
+```
+
 Em seguida, nós inicializaremos a aplicação utilizando o [Docker](https://www.docker.com/), então siga os comandos abaixo:
 
 ```bash
