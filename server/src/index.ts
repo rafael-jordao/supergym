@@ -1,4 +1,4 @@
-import  app  from './app'
+import app from './app'
 import appDataSource from './database/data-source';
 
 appDataSource.initialize()
@@ -11,9 +11,6 @@ appDataSource.initialize()
     .catch((err) => {
         console.log('Conexão com banco falhou. Confira o erro: ', err);
     })
-
-
-
 
 
 
