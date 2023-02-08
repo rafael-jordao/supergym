@@ -38,9 +38,17 @@ docker inspect -f \
 
 No lugar dos 00000000000 voce substitui pelo ID do container e dessa forma você terá o numero do Ip Address do seu container.
 
-Substitua no host o seu Ip pelo do Ip do container docker no [data-source.ts](https://github.com/rafael-jordao/supergym/blob/main/server/src/database/data-source.ts) e a aplicação será inicializada com sucesso.
+Substitua no host o seu Ip pelo do Ip do container docker no [data-source.ts](https://github.com/rafael-jordao/supergym/blob/main/server/src/database/data-source.ts) e a aplicação será inicializada com sucesso 🚀.
 
 
 ## Testes unitários
 
 Para garantia de qualidade de código e menos dor de cabeça para o time de desenvolvimento, estaremos utilizando a biblioteca de testes unitários [JestJS](https://jestjs.io/pt-BR/docs/getting-started)
+
+Crie os testes dentro da pasta __tests__  e utilize o script abaixo para realizar os testes unitários.
+
+```bash
+npm run test
+```
+
+Fique à vontade para contribuir 😉.
