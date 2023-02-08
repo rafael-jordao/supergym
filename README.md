@@ -32,4 +32,4 @@ docker inspect -f \
 
 No lugar dos 00000000000 voce substitui pelo ID do container e dessa forma você terá o numero do Ip Address do seu container.
 
-Substitua no host o seu Ip pelo do Ip do container docker no **data-source.ts** e a aplicação será inicializada com sucesso.
+Substitua no host o seu Ip pelo do Ip do container docker no [data-source.ts](https://github.com/rafael-jordao/supergym/blob/main/server/src/database/data-source.ts) e a aplicação será inicializada com sucesso.
