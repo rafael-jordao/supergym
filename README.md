@@ -45,7 +45,7 @@ Substitua no host o seu Ip pelo do Ip do container docker no [data-source.ts](ht
 
 Para garantia de qualidade de código e menos dor de cabeça para o time de desenvolvimento, estaremos utilizando a biblioteca de testes unitários [JestJS](https://jestjs.io/pt-BR/docs/getting-started)
 
-Crie os testes dentro da pasta __tests__  e utilize o script abaixo para realizar os testes unitários.
+Crie os testes dentro da pasta [__tests__](https://github.com/rafael-jordao/supergym/tree/main/server/src/__tests__) e utilize o script abaixo para realizar os testes unitários.
 
 ```bash
 npm run test
