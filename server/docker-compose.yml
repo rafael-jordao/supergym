@@ -1,0 +1,33 @@
+version: '3'
+services:
+  app:
+    build: .
+    container_name: app_supergym
+    depends_on:
+      - postgres
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/usr/src/app
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASSWORD: password
+      DB_NAME: supergym_db
+    working_dir: /usr/src/app
+  db:
+    image: postgres
+    container_name: db_supergym
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: supergym_db
+    volumes:
+      - .:/usr/src/app/database
+    working_dir: /usr/src/app
+volumes:
+  postgres_data:
+    driver: local
