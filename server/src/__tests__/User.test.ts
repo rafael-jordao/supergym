@@ -24,7 +24,7 @@ afterAll(() => {
 describe('User', () => {
     it('Should be able to create a new User. Route: /users', async () => {
         const payload = {
-            "email": "rafael@ultimoteste2.com",
+            "email": "rafael@ultimoteste2234324.com",
             "password": "password"
         }
         try {
@@ -51,7 +51,7 @@ describe('User', () => {
 describe('User', () => {
     it('Should NOT be able to create a new User with invalid data. Route: /users', async () => {
         const invalidPayload = {
-            "email": "rafael@ultimoteste.com", // invalid email
+            "email": "rafael@ultimoteste2234324.com", // invalid email
             "password": "password"
         }
         try {
