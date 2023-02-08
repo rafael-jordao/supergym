@@ -4,7 +4,13 @@ Um app para personais trainers enviarem seus treinos de qualquer lugar. Ainda es
 
 ## Instalação
 
-Nós inicializaremos a aplicação utilizando o [Docker](https://www.docker.com/), então siga os comandos abaixo:
+Antes de tudo, acesse a pasta correta do [server](https://github.com/rafael-jordao/supergym/tree/main/server)
+
+```bash
+cd server
+```
+
+Em seguida, nós inicializaremos a aplicação utilizando o [Docker](https://www.docker.com/), então siga os comandos abaixo:
 
 ```bash
 docker compose up -d
