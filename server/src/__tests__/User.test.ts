@@ -24,7 +24,7 @@ afterAll(() => {
 describe('User', () => {
     it('Should be able to create a new User. Route: /users', async () => {
         const payload = {
-            "email": "rafael@ultimoteste2234324.com",
+            "email": "user@testes.com",
             "password": "password"
         }
         try {
@@ -35,7 +35,7 @@ describe('User', () => {
             expect(res.status).toBe(200)
             expect(res.body).toEqual(
                 expect.objectContaining({
-                    email: "rafael@ultimoteste2.com",
+                    email: "user@testes.com",
                     password: expect.any(String),
                     id: expect.any(String)
                 })
@@ -51,7 +51,7 @@ describe('User', () => {
 describe('User', () => {
     it('Should NOT be able to create a new User with invalid data. Route: /users', async () => {
         const invalidPayload = {
-            "email": "rafael@ultimoteste2234324.com", // invalid email
+            "email": "user@testes.com", // invalid email
             "password": "password"
         }
         try {
