@@ -1,6 +1,6 @@
 # Supergym
 
-Um app para personais trainers enviarem seus treinos de qualquer lugar. Ainda estamos em faze de idealização do projeto, então temos apenas uma estrutura inicial.
+Um app para personais trainers enviarem seus treinos de qualquer lugar. Ainda estamos em fase de idealização do projeto, então temos apenas uma estrutura inicial.
 
 ## Instalação
 
