@@ -14,7 +14,7 @@ Serão criados 2 containers: API e Banco de dados.
 
 ## Ip Address do Docker Container
 
-Provavelmente você está encontrando um erro de conexão com o banco de dados, para resolver esse problema você deve inserir o Ip Address do container e não o da sua máquina local no nosso arquivo **data-source.ts**. 
+Provavelmente você está encontrando um erro de conexão com o banco de dados, para resolver esse problema você deve inserir o Ip Address do container e não o da sua máquina local no nosso arquivo [data-source.ts](https://github.com/rafael-jordao/supergym/blob/main/server/src/database/data-source.ts). 
 
 Para descobrir o Ip Address do seu container é necessário rodar o script:
 
