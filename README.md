@@ -1,16 +1,16 @@
-# Supergym
+# Supergym 💪
 
 Um app para personais trainers enviarem seus treinos de qualquer lugar. Ainda estamos em fase de idealização do projeto, então temos apenas uma estrutura inicial.
 
-## Instalação
+## Instalação ⬇
 
-Antes de tudo, acesse a pasta correta do [server](https://github.com/rafael-jordao/supergym/tree/main/server)
+Antes de tudo, acesse a pasta correta do [server](https://github.com/rafael-jordao/supergym/tree/main/server) 🗂️
 
 ```bash
 cd server
 ```
 
-Instale as dependências
+Instale as dependências 📦
 
 ```bash
 npm install
